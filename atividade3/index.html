@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 3</title>
+</head>
+
+<body>
+    <h1 style="color:blue">Cadastro Furioso</h1>
+    <img src="sources/gatinho.gif" alt="Gato teclando" width="150px">
+
+    <table border="1">
+        <form>
+            <tr>
+                <td>
+                    <label for="nome">Nome Completo</label> <br>
+                </td>
+                <td>
+                    <input type="text" id="nome">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Sexo</label> <br>
+                </td>
+                <td>
+                    <input type="radio" id="feminino" name="sexo"><label for="feminino">Feminino</label> <br>
+                    <input type="radio" id="masculino" name="sexo"><label for="masculino">Masculino</label> <br>
+                    <input type="radio" id="prefironaoresponder" name="sexo"><label for="prefironaoresponder">Prefiro não
+                        responder</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="datadenascimento">Data de Nascimento</label> <br>
+                </td>
+                <td>
+                    <input type="date" id="datadenascimento" name="datadenascimento">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Email</label> <br>
+                </td>
+                <td>
+                    <input type="email" id="email" placeholder="seu@email.com">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Senha</label> <br>
+                </td>
+                <td>
+                    <input type="password" id="senha">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Repetir senha</label> <br>
+                </td>
+                <td>
+                    <input type="password" id="repetirsenha">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="departamento">Departamento:</label> <br>
+                </td>
+                <td>
+                    <select id="departamento" name="departamento">
+                        <option value="administrativo">Administrativo</option>
+                        <option value="atendimento">Atendimento</option>
+                        <option value="financeiro">Financeiro</option>
+                        <option value="suporte">Suporte</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="justificativa">Justificativa da aplicação</label> <br>
+                </td>
+                <td>
+                    <textarea id="justificativa" maxlength="200"
+                    placeholder="Informe o motivo que está se cadastrando"></textarea> <br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan=2>
+                    <input type="checkbox" id="confirmacao" name="confirmacao" checked>
+                    <label>Confirmo que li e aceito os termos de uso.</label>
+                </td>
+            </tr>
+           <tr>
+            <td colspan="2">
+                <input type="submit" value="Cadastrar">
+            </td>
+           </tr>
+        </form>
+    </table>
+    <br>
+    <img src="sources/ok.jpg" alt="Ok" width="300px">
+</body>
+
+</html>

@@ -29,5 +29,56 @@
     <h3>"Antes 5 seguidores no Instagram do que 5 seguidores na rua."</h3>
     <img src="imagens/smart.jpg" alt="Inteligente">
 
+    <!-- Formulário de Contato -->
+    <form>
+        <p>
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" placeholder="Digite seu nome" required>
+        </p>
+        <p>
+            <label for="email">Email: </label>
+            <input type="email" id="email" placeholder="Digite seu email">
+        </p>
+        <p>
+            <label for="telefone">Telefone: </label>
+            <input type="tel" id="telefone" placeholder="Digite seu telefone" disabled>
+        </p>
+        <p>
+            <label>Estado Civil: </label>
+            <input type="radio" id="solteiro" name="estadocivil"><label for="solteiro">Solteiro</label>
+            <input type="radio" id="casado" name="estadocivil"><label for="casado">Casado</label>
+            <input type="radio" id="divorciado" name="estadocivil"><label for="divorciado">Divorciado</label>
+            <input type="radio" id="viuvo" name="estadocivil"><label for="viuvo">Viúvo</label>           
+        </p>
+        <p>
+            <label for="departamento">Departamento:</label>
+            <select id="departamento" name="departamento">
+                <option value="administrativo">Administrativo</option>
+                <option value="atendimento">Atendimento</option>
+                <option value="financeiro">Financeiro</option>
+                <option value="suporte">Suporte</option>
+            </select>
+        </p>
+        <p>
+            <label for="mensagem">Digite sua mensagem: </label> <br>
+            <textarea id="mensagem" maxlength="200" rows="8" cols="30"></textarea>
+        </p>
+            <label for="datacontato">Melhor data p/ contato:</label>
+            <input type="date" id="datacontato" name="datacontato">
+        <p>
+            <input type="checkbox" id="termosdeservico" name="termosdeservico">
+            <label>Li e concordo com os Termos de Uso.</label>
+        </p>
+        <p> 
+            <input type="checkbox" id="propagandas" name="propagandas" checked>
+            <label>Aceito receber ofertas comerciais de nossos parceiros.</label>
+        </p>
+        <p>
+            <input type="submit" value="Entrar em contato">
+        </p>
+
+
+    </form>
+
 </body>
 </html>
