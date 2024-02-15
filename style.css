@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    background-image: url('imagens/odiador.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    color: rgb(7, 29, 153);
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+ul li a{
+    color:rgb(211, 1, 1);
+}
+.azul{
+    color:rgb(7, 29, 153);
+}
+.grande{
+    font-size: 40px;
+    font-family: fantasy;
+}
+#especial{
+    font-size: 30px;
+    font-weight: bold;
+}
+.testes{
+    background-color:red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    word-spacing: 10px;
+    margin: 40px 10px 10px 40px;
+    padding: 30px 20px 30px 20px;
+   
+}
+.centro{
+    text-align: center;
+}
+input[type='submit']{
+    background-color: blue;
+    color: white;
+    border: 2px solid white;
+}
