@@ -9,8 +9,8 @@
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <h1>Site do Taisey</h1>
-    <img src="imagens/logo atlus.png" alt="Logo" width="100px">
+    <h1 class="grande">Site do Taisey</h1>
+    <img src="imagens/banjo-tooie logo.png" alt="Logo" width="250px"> 
     <!-- Menu -->
     <ul>
         <li><a href="index.htm">Página inicial</a></li>
@@ -21,11 +21,11 @@
 
     <h2>Contatos:</h2>
     <ul>
-        <li>E-mail: rafaeltaisey@hotmail.com</li>
+        <li><a>E-mail: rafaeltaisey@hotmail.com</a></li>
         <li><a href="https://www.instagram.com/rafataisey/?next=%2F">Instagram</a></li>
         <li><a href="https://twitter.com/rafataisey">Twitter/X</a></li>
         <li><a href="https://github.com/taiseyReload">GitHub</a></li>
-        <li>Discord: taiseyreload</li>
+        <li><a>Discord: taiseyreload</a></li>
     </ul>
     <h3>"Antes 5 seguidores no Instagram do que 5 seguidores na rua."</h3>
     <img src="imagens/smart.jpg" alt="Inteligente">
@@ -33,26 +33,26 @@
     <!-- Formulário de Contato -->
     <form>
         <p>
-            <label for="nome">Nome: </label>
+            <label for="nome">Nome: </label> <br>
             <input type="text" id="nome" placeholder="Digite seu nome" required>
         </p>
         <p>
-            <label for="email">Email: </label>
+            <label for="email">Email: </label> <br>
             <input type="email" id="email" placeholder="Digite seu email">
         </p>
         <p>
-            <label for="telefone">Telefone: </label>
+            <label for="telefone">Telefone: </label> <br>
             <input type="tel" id="telefone" placeholder="Digite seu telefone" disabled>
         </p>
         <p>
-            <label>Estado Civil: </label>
+            <label>Estado Civil: </label> <br>
             <input type="radio" id="solteiro" name="estadocivil"><label for="solteiro">Solteiro</label>
-            <input type="radio" id="casado" name="estadocivil"><label for="casado">Casado</label>
+            <input type="radio" id="casado" name="estadocivil"><label for="casado">Casado</label> <br>
             <input type="radio" id="divorciado" name="estadocivil"><label for="divorciado">Divorciado</label>
             <input type="radio" id="viuvo" name="estadocivil"><label for="viuvo">Viúvo</label>           
         </p>
         <p>
-            <label for="departamento">Departamento:</label>
+            <label for="departamento">Departamento:</label> <br>
             <select id="departamento" name="departamento">
                 <option value="administrativo">Administrativo</option>
                 <option value="atendimento">Atendimento</option>
@@ -64,7 +64,7 @@
             <label for="mensagem">Digite sua mensagem: </label> <br>
             <textarea id="mensagem" maxlength="200" rows="8" cols="30"></textarea>
         </p>
-            <label for="datacontato">Melhor data p/ contato:</label>
+            <label for="datacontato" class="verde">Melhor data p/ contato:</label> <br>
             <input type="date" id="datacontato" name="datacontato">
         <p>
             <input type="checkbox" id="termosdeservico" name="termosdeservico">
@@ -77,9 +77,8 @@
         <p>
             <input type="submit" value="Entrar em contato">
         </p>
-
-
     </form>
 
+    
 </body>
 </html>
